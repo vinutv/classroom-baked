@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "https://market-assets.fra1.cdn.digitaloceanspaces.com/market-assets/*",
 
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
