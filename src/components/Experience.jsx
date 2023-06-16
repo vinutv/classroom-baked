@@ -6,7 +6,6 @@ import { Vector3 } from 'three';
 
 
 export const Experience = () => {
-
    const [position, setPosition] = useState(new Vector3(0, 0, 0));
 
   // Use the useFrame hook to update the position of the model
