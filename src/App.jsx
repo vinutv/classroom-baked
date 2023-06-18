@@ -25,7 +25,7 @@ function App() {
       <Grid renderOrder={-1} position={[0, -4.8, 0]} infiniteGrid cellSize={0.6} cellThickness={0.6} sectionSize={3.3} sectionThickness={1.5} sectionColor={[0.5, 0.5, 1]} fadeDistance={50} />
       <ContactShadows frames={2} position={[0, -4.9, 0]} scale={30} blur={2} opacity={0.6} />
 
-      <Environment shadows background preset="sunset" blur={0.8} />
+      <Environment background files={'/environmentMaps/venice_sunset_1k.hdr'} blur={0.8} />
     </Canvas>
   );
 }
